@@ -2,7 +2,7 @@
   <div id="app">
     <div class="main-container">
       <AppHeader />
-      <AppMain />
+      <Home />
     </div>
     <AppFooter />
   </div>
@@ -11,13 +11,13 @@
 <script>
 import AppHeader from "./components/AppHeader";
 import AppFooter from "./components/AppFooter";
-import AppMain from "./components/AppMain";
+import Home from "./views/Home";
 export default {
   name: "App",
   components: {
     AppHeader,
     AppFooter,
-    AppMain
+    Home
   },
   mounted() {}
 };

@@ -534,11 +534,11 @@
   </div>
 </template>
 <script>
-import Book from "./Books/Book";
-import Book2 from "./Books/Book2";
-import Post from "./Blog/Post";
+import Book from "../components/Books/Book";
+import Book2 from "../components/Books/Book2";
+import Post from "../components/Blog/Post";
 export default {
-  name: "AppMain",
+  name: "Home",
   components: {
     Book,
     Book2,
