@@ -18,7 +18,8 @@ export default {
     AppHeader,
     AppFooter,
     AppMain
-  }
+  },
+  mounted() {}
 };
 </script>
 

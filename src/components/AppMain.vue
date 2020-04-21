@@ -259,7 +259,7 @@
                   </header>
 
                   <div class="masonry-container row">
-                    <Book v-for="book in books" :key="book.id" :book="book"/>
+                    <Book v-for="book in books" :key="book.id" :book="book" />
                   </div>
                   <!-- masonry-container -->
 
@@ -296,289 +296,8 @@
                   </p>
                 </header>
                 <div class="widget-content">
-                  <ul class="item-list clearfix">
-                    <li class>
-                      <article class="entry-item">
-                        <div class="entry-thumb">
-                          <a href="#">
-                            <img src="images/p3/1.jpg" alt />
-                          </a>
-                          <div class="ct-mask">
-                            <a href="#" class="ct-icon"></a>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <a href="#" class="kopa-btn-7">24 October</a>
-                          <h4 class="entry-title">
-                            <a href="#">
-                              Aenean condimentum felis non ante tepus sit
-                              amet gravida nullam.
-                            </a>
-                          </h4>
-                          <p>
-                            In eleifend sapien a faucibus elementum. Sed use
-                            ndrerit purus et dignissim. Nulla luctus sequat ue
-                            a eleifend. Fusce nec ante vel mi pulvinar
-                            ultrics. Nulla sodales lorem nisi.
-                          </p>
-                          <footer class="clearfix">
-                            <div class="kopa-pull-left">
-                              <a href="#" class="more-link">Read more</a>
-                            </div>
-                            <div class="kopa-pull-right">
-                              <ul class="clearfix">
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-user"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-comments"></i>
-                                    <span class="ct-icon-4">2</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </footer>
-                        </div>
-                      </article>
-                    </li>
-                    <li class>
-                      <article class="entry-item">
-                        <div class="entry-thumb">
-                          <a href="#">
-                            <img src="images/p3/2.jpg" alt />
-                          </a>
-                          <div class="ct-mask">
-                            <a href="#" class="ct-icon"></a>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <a href="#" class="kopa-btn-7">24 October</a>
-                          <h4 class="entry-title">
-                            <a href="#">
-                              Aenean condimentum felis non ante tepus sit
-                              amet gravida nullam.
-                            </a>
-                          </h4>
-                          <p>
-                            In eleifend sapien a faucibus elementum. Sed use
-                            ndrerit purus et dignissim. Nulla luctus sequat ue
-                            a eleifend. Fusce nec ante vel mi pulvinar
-                            ultrics. Nulla sodales lorem nisi.
-                          </p>
-                          <footer class="clearfix">
-                            <div class="kopa-pull-left">
-                              <a href="#" class="more-link">Read more</a>
-                            </div>
-                            <div class="kopa-pull-right">
-                              <ul class="clearfix">
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-user"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-comments"></i>
-                                    <span class="ct-icon-4">2</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </footer>
-                        </div>
-                      </article>
-                    </li>
-                    <li class>
-                      <article class="entry-item">
-                        <div class="entry-thumb">
-                          <a href="#">
-                            <img src="images/p3/3.jpg" alt />
-                          </a>
-                          <div class="ct-mask">
-                            <a href="#" class="ct-icon"></a>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <a href="#" class="kopa-btn-7">24 October</a>
-                          <h4 class="entry-title">
-                            <a href="#">
-                              Aenean condimentum felis non ante tepus sit
-                              amet gravida nullam.
-                            </a>
-                          </h4>
-                          <p>
-                            In eleifend sapien a faucibus elementum. Sed use
-                            ndrerit purus et dignissim. Nulla luctus sequat ue
-                            a eleifend. Fusce nec ante vel mi pulvinar
-                            ultrics. Nulla sodales lorem nisi.
-                          </p>
-                          <footer class="clearfix">
-                            <div class="kopa-pull-left">
-                              <a href="#" class="more-link">Read more</a>
-                            </div>
-                            <div class="kopa-pull-right">
-                              <ul class="clearfix">
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-user"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-comments"></i>
-                                    <span class="ct-icon-4">2</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </footer>
-                        </div>
-                      </article>
-                    </li>
-                    <li class>
-                      <article class="entry-item">
-                        <div class="entry-thumb">
-                          <a href="#">
-                            <img src="images/p3/1.jpg" alt />
-                          </a>
-                          <div class="ct-mask">
-                            <a href="#" class="ct-icon"></a>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <a href="#" class="kopa-btn-7">24 October</a>
-                          <h4 class="entry-title">
-                            <a href="#">
-                              Aenean condimentum felis non ante tepus sit
-                              amet gravida nullam.
-                            </a>
-                          </h4>
-                          <p>
-                            In eleifend sapien a faucibus elementum. Sed use
-                            ndrerit purus et dignissim. Nulla luctus sequat ue
-                            a eleifend. Fusce nec ante vel mi pulvinar
-                            ultrics. Nulla sodales lorem nisi.
-                          </p>
-                          <footer class="clearfix">
-                            <div class="kopa-pull-left">
-                              <a href="#" class="more-link">Read more</a>
-                            </div>
-                            <div class="kopa-pull-right">
-                              <ul class="clearfix">
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-user"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-comments"></i>
-                                    <span class="ct-icon-4">2</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </footer>
-                        </div>
-                      </article>
-                    </li>
-                    <li class>
-                      <article class="entry-item">
-                        <div class="entry-thumb">
-                          <a href="#">
-                            <img src="images/p3/2.jpg" alt />
-                          </a>
-                          <div class="ct-mask">
-                            <a href="#" class="ct-icon"></a>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <a href="#" class="kopa-btn-7">24 October</a>
-                          <h4 class="entry-title">
-                            <a href="#">
-                              Aenean condimentum felis non ante tepus sit
-                              amet gravida nullam.
-                            </a>
-                          </h4>
-                          <p>
-                            In eleifend sapien a faucibus elementum. Sed use
-                            ndrerit purus et dignissim. Nulla luctus sequat ue
-                            a eleifend. Fusce nec ante vel mi pulvinar
-                            ultrics. Nulla sodales lorem nisi.
-                          </p>
-                          <footer class="clearfix">
-                            <div class="kopa-pull-left">
-                              <a href="#" class="more-link">Read more</a>
-                            </div>
-                            <div class="kopa-pull-right">
-                              <ul class="clearfix">
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-user"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-comments"></i>
-                                    <span class="ct-icon-4">2</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </footer>
-                        </div>
-                      </article>
-                    </li>
-                    <li class>
-                      <article class="entry-item">
-                        <div class="entry-thumb">
-                          <a href="#">
-                            <img src="images/p3/3.jpg" alt />
-                          </a>
-                          <div class="ct-mask">
-                            <a href="#" class="ct-icon"></a>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <a href="#" class="kopa-btn-7">24 October</a>
-                          <h4 class="entry-title">
-                            <a href="#">
-                              Aenean condimentum felis non ante tepus sit
-                              amet gravida nullam.
-                            </a>
-                          </h4>
-                          <p>
-                            In eleifend sapien a faucibus elementum. Sed use
-                            ndrerit purus et dignissim. Nulla luctus sequat ue
-                            a eleifend. Fusce nec ante vel mi pulvinar
-                            ultrics. Nulla sodales lorem nisi.
-                          </p>
-                          <footer class="clearfix">
-                            <div class="kopa-pull-left">
-                              <a href="#" class="more-link">Read more</a>
-                            </div>
-                            <div class="kopa-pull-right">
-                              <ul class="clearfix">
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-user"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" class="ct-icon-3">
-                                    <i class="fa fa-comments"></i>
-                                    <span class="ct-icon-4">2</span>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </footer>
-                        </div>
-                      </article>
-                    </li>
+                  <ul class="item-list clearfix">                    
+                    <Post v-for="post in posts" :key="post.id" :post="post"/>
                   </ul>
                 </div>
               </div>
@@ -715,7 +434,7 @@
                 <div class="row">
                   <div class="widget-content">
                     <ul class="item-list">
-						 <Book2 v-for="book in books" :key="book.id" :book="book"/>
+                      <Book2 v-for="book in books" :key="book.id" :book="book" />
                     </ul>
                   </div>
                 </div>
@@ -817,25 +536,150 @@
 <script>
 import Book from "./Books/Book";
 import Book2 from "./Books/Book2";
+import Post from "./Blog/Post";
 export default {
   name: "AppMain",
-    components: {
-	Book,
-	Book2
+  components: {
+    Book,
+    Book2,
+    Post
   },
   data() {
     return {
-		books:[
-			{id:1,name:"Put a Title Here",image:"images/p2/1.jpg",discunt:"20%",rate:"3",description:" Suspendisse ac tellus congue and eleifend leo eu, elementum. "},
-			{id:2,name:"Hoseein bajan",image:"images/p2/2.jpg",discunt:"20%",rate:"3",description:" hossein bajan hastan. "},
-			{id:3,name:"Adell bajan",image:"images/p2/3.jpg",discunt:"20%",rate:"3",description:" salam bande . "},
-			{id:4,name:"Sara etemadian",image:"images/p2/4.jpg",discunt:"20%",rate:"3",description:"lorbgdgfbvvdfd"},
-			{id:5,name:"Milad saeedi",image:"images/p2/5.jpg",discunt:"20%",rate:"3",description:" Suspendisse ac tellus congue and eleifend leo eu, elementum. "},
-			{id:6,name:"Put a Title Here",image:"images/p2/6.jpg",discunt:"20%",rate:"3",description:" Suspendisse ac tellus congue and eleifend leo eu, elementum. "},
-			{id:7,name:"Put a Title Here",image:"images/p2/7.jpg",discunt:"20%",rate:"3",description:" Suspendisse ac tellus congue and eleifend leo eu, elementum. "},
-			{id:8,name:"Put a Title Here",image:"images/p2/8.jpg",discunt:"20%",rate:"3",description:" Suspendisse ac tellus congue and eleifend leo eu, elementum. "}
-		]
-	};
+      books: [
+        {
+          id: 1,
+          name: "Put a Title Here",
+          image: "images/p2/1.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+        },
+        {
+          id: 2,
+          name: "Hoseein bajan",
+          image: "images/p2/2.jpg",
+          discunt: "20%",
+          rate: "3",
+          description: " hossein bajan hastan. "
+        },
+        {
+          id: 3,
+          name: "Adell bajan",
+          image: "images/p2/3.jpg",
+          discunt: "20%",
+          rate: "3",
+          description: " salam bande . "
+        },
+        {
+          id: 4,
+          name: "Sara etemadian",
+          image: "images/p2/4.jpg",
+          discunt: "20%",
+          rate: "3",
+          description: "lorbgdgfbvvdfd"
+        },
+        {
+          id: 5,
+          name: "Milad saeedi",
+          image: "images/p2/5.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+        },
+        {
+          id: 6,
+          name: "Put a Title Here",
+          image: "images/p2/6.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+        },
+        {
+          id: 7,
+          name: "Put a Title Here",
+          image: "images/p2/7.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+        },
+        {
+          id: 8,
+          name: "Put a Title Here",
+          image: "images/p2/8.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+        }
+      ],
+      posts: [
+        {
+          id: 1,
+          name:
+            " Aenean condimentum felis non ante tepus sit amet gravida nullam. ",
+		  image: "images/p3/1.jpg",
+		  commentCount:"4",
+          date: "24 Octobr",
+          description:
+            "  In eleifend sapien a faucibus elementum. Sed use ndrerit purus et dignissim. Nulla luctus sequat ue a eleifend. Fusce nec ante vel mi pulvinar ultrics. Nulla sodales lorem nisi. "
+        },
+        {
+          id: 2,
+          name:
+            " Aenean condimentum felis non ante tepus sit amet gravida nullam. ",
+		  image: "images/p3/2.jpg",
+		  commentCount:"4",
+          date: "24 Octobr",
+          description:
+            "  In eleifend sapien a faucibus elementum. Sed use ndrerit purus et dignissim. Nulla luctus sequat ue a eleifend. Fusce nec ante vel mi pulvinar ultrics. Nulla sodales lorem nisi. "
+		},
+		{
+          id: 3,
+          name:
+            " Aenean condimentum felis non ante tepus sit amet gravida nullam. ",
+		  image: "images/p3/3.jpg",
+		  commentCount:"4",
+          date: "24 Octobr",
+          description:
+            "  In eleifend sapien a faucibus elementum. Sed use ndrerit purus et dignissim. Nulla luctus sequat ue a eleifend. Fusce nec ante vel mi pulvinar ultrics. Nulla sodales lorem nisi. "
+		},
+		{
+          id: 4,
+          name:
+            " Aenean condimentum felis non ante tepus sit amet gravida nullam. ",
+		  image: "images/p3/1.jpg",
+		  commentCount:"4",
+          date: "24 Octobr",
+          description:
+            "  In eleifend sapien a faucibus elementum. Sed use ndrerit purus et dignissim. Nulla luctus sequat ue a eleifend. Fusce nec ante vel mi pulvinar ultrics. Nulla sodales lorem nisi. "
+        },
+        {
+          id: 5,
+          name:
+            " Aenean condimentum felis non ante tepus sit amet gravida nullam. ",
+		  image: "images/p3/2.jpg",
+		  commentCount:"4",
+          date: "24 Octobr",
+          description:
+            "  In eleifend sapien a faucibus elementum. Sed use ndrerit purus et dignissim. Nulla luctus sequat ue a eleifend. Fusce nec ante vel mi pulvinar ultrics. Nulla sodales lorem nisi. "
+		},
+		{
+          id: 6,
+          name:
+            " Aenean condimentum felis non ante tepus sit amet gravida nullam. ",
+		  image: "images/p3/3.jpg",
+		  commentCount:"4",
+          date: "24 Octobr",
+          description:
+            "  In eleifend sapien a faucibus elementum. Sed use ndrerit purus et dignissim. Nulla luctus sequat ue a eleifend. Fusce nec ante vel mi pulvinar ultrics. Nulla sodales lorem nisi. "
+        }
+      ]
+    };
   }
 };
 </script>
