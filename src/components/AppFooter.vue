@@ -1,5 +1,12 @@
 <template>
   <div>
+    <a href="#" class="scroll-up">
+      <span class="ti-arrow-up"></span>
+    </a>
+    <!-- main-container -->
+    <div class="body-overlay"></div>
+    <div class="body-background"></div>
+
     <div class="bottom-sidebar kopa-area white-text-style style-01">
       <div class="kopa-area-tg-4">
         <span></span>

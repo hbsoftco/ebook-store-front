@@ -525,12 +525,6 @@
       <!-- kopa-area-7 -->
     </div>
     <!-- main-content -->
-    <a href="#" class="scroll-up">
-      <span class="ti-arrow-up"></span>
-    </a>
-    <!-- main-container -->
-    <div class="body-overlay"></div>
-    <div class="body-background"></div>
   </div>
 </template>
 <script>

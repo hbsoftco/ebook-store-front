@@ -2,7 +2,8 @@
   <div id="app">
     <div class="main-container">
       <AppHeader />
-      <Home />
+	  <router-view/>
+      <!-- <Home /> -->
     </div>
     <AppFooter />
   </div>
