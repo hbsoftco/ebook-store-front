@@ -7,13 +7,8 @@
             <span class="ti-menu"></span>
           </div>
           <!-- hamburger-menu -->
+			<LogoHeader />
 
-          <div class="kopa-logo">
-            <a href="#">
-              <img src="images/header/logo.png" alt />
-            </a>
-          </div>
-          <!-- logo -->
         </div>
         <!-- col-md-2 -->
 
@@ -377,9 +372,11 @@
   <!-- kopa-page-header-1 -->
 </template>
 <script>
+import LogoHeader from '../components/LogoHeader/LogoHeader'
 export default {
-  name: "AppHeader"
-};
+  name: "AppHeader",
+  components: {
+	LogoHeader
+  }
+}
 </script>
-
-<style lang="scss"></style>
