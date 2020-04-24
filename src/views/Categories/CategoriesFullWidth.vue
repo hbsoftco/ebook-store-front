@@ -38,57 +38,13 @@
                 <div class="widget reading-module-article-list-2">
                   <div class="widget-content">
                     <ul class="row ul-mh">
-                      <li class="col-md-4 col-sm-4 col-xs-12">
-                        <article class="entry-item">
-                          <div class="entry-thumb">
-                            <a href="#">
-                              <img src="images/p9/1.jpg" alt />
-                            </a>
-                          </div>
-                          <div class="entry-content">
-                            <div class="ct-title-5">
-                              <h5>Top Rated</h5>
-                              <h4>MagAZINES</h4>
-                            </div>
-                            <h6 class="ct-title-6">Up to 80% Off</h6>
-                            <a class="kopa-btn-3" href="#">shop now</a>
-                          </div>
-                        </article>
-                      </li>
-                      <li class="col-md-4 col-sm-4 col-xs-12">
-                        <article class="entry-item">
-                          <div class="entry-thumb">
-                            <a href="#">
-                              <img src="images/p9/2.jpg" alt />
-                            </a>
-                          </div>
-                          <div class="entry-content">
-                            <div class="ct-title-5">
-                              <h5>popular</h5>
-                              <h4>books</h4>
-                            </div>
-                            <h6 class="ct-title-6">Up to 50% Off</h6>
-                            <a class="kopa-btn-3" href="#">shop now</a>
-                          </div>
-                        </article>
-                      </li>
-                      <li class="col-md-4 col-sm-4 col-xs-12">
-                        <article class="entry-item">
-                          <div class="entry-thumb">
-                            <a href="#">
-                              <img src="images/p9/3.jpg" alt />
-                            </a>
-                          </div>
-                          <div class="entry-content">
-                            <div class="ct-title-5">
-                              <h5>funny</h5>
-                              <h4>comics</h4>
-                            </div>
-                            <h6 class="ct-title-6">Up to 40% Off</h6>
-                            <a class="kopa-btn-3" href="#">shop now</a>
-                          </div>
-                        </article>
-                      </li>
+							
+						                      <MBC
+                        v-for="mbc in mbcs"
+                        :key="mbc.id"
+                        :mbc="mbc"
+                      />
+
                     </ul>
                   </div>
                 </div>
@@ -218,14 +174,41 @@
 </template>
 <script>
 import BookShop from "../Categories/BookShop.vue";
-// import BookShop from '../views/components/ShopCtegories/BookShop.vue'
+import MBC from "./ComponentFull/MBC.vue"
 export default {
   name: "CategoriesFullWidth",
   components: {
-    BookShop
+	BookShop,
+	MBC,
   },
   data() {
     return {
+		mbcs: [
+        {
+          id: 1,
+          title: "Top Rated",
+          image: "images/p9/1.jpg",
+          name:
+            "MAGZINES",
+          discont: "Up to 80% Off"
+        },
+          {
+          id: 2,
+          title: "Popular",
+          image: "images/p9/2.jpg",
+          name:
+            "BOOKS",
+          discont: "Up to 50% Off"
+        },
+        {
+          id: 3,
+          title: "Funny",
+          image: "images/p9/3.jpg",
+          name:
+            "COMICS",
+          discont: "Up to 40% Off"
+        },
+		],
       bookshops: [
         {
           id: 1,
