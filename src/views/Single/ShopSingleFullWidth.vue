@@ -47,485 +47,20 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
 
                             <div itemscope="" itemtype="http://schema.org/Product" class="product">
-                                <div class="woocommerce-area-1">
-                                    <div class="images">
-                                        <div class="badge-icon-1 style-04">
-                                            Sale!
-                                            <span></span>
-                                        </div>
-                                        <a href="images/p26/1.jpg" itemprop="image" class="woocommerce-main-image zoom" title="" data-rel="prettyPhoto[product-gallery]">
-                                            <img src="images/p26/1.jpg" alt="">
-                                        </a>
-                                        <div class="thumbnails columns-3">
-                                            <a href="images/p26/2.jpg" class="zoom first" title="" data-rel="prettyPhoto[product-gallery]">
-                                                <img src="images/p26/2.jpg" alt="">
-                                            </a>
-                                            <a href="images/p26/1.jpg" class="zoom" title="" data-rel="prettyPhoto[product-gallery]">
-                                                <img src="images/p26/1.jpg" alt="">
-                                            </a>
-                                            <a href="images/p26/3.jpg" class="zoom" title="" data-rel="prettyPhoto[product-gallery]">
-                                                <img src="images/p26/3.jpg" alt="">
-                                            </a>
+              
+								<BearComponent />
 
-                                        </div>
-                                    </div>
-                                    <div class="summary entry-summary">
-                                        <div class="kopa-pull-left">
-                                            <div class="woocommerce-product-rating" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
-                                                <div class="star-rating" title="">
-                                                    <span>
-                                                        <strong itemprop="ratingValue" class="rating">4.00</strong> 
-                                                        out of 5            
-                                                    </span>
-                                                </div>
-                                                <a href="#reviews" class="woocommerce-review-link" rel="nofollow"><span itemprop="ratingCount" class="count">03</span> customer review</a>
-                                            </div>                
-                                        </div>
-                                        <div class="kopa-pull-right">
-                                            <div class="add-to-wishlist">
-                                                <div>
-                                                    <a href="#" class="add_to_wishlist">
-                                                        <i class="ti-heart"></i>   
-                                                        <span>Wishlist</span> 
-                                                    </a>
-                                                </div>
-                                            </div>                
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <h1 itemprop="name" class="product_title entry-title">
-                                        Write Your Title Here
-                                        </h1>
-                                        <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-                                            <p class="price">
-                                                <del><span class="amount">£32</span></del> 
-                                                <ins><span class="amount">£20</span></ins>
-                                            </p>
-                                        </div>
-                                        <div itemprop="description">
-                                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliqt. Aean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.
-                                            <br><br>#   Pay via E-reading wallet and get upto 40% extra.
-                                            <br>#   Read offline on any device (iOS, android and etc.)</p>
-                                        </div>
-                                        <form class="cart" method="post">
-                                            <div class="quantity">
-                                                <input type="button" value="-" class="minus">
-                                                <input type="number" step="1" min="1" name="quantity" value="1" title="Qty" class="input-text qty text">
-                                                <input type="button" value="+" class="plus">
-                                            </div>
-                                            <input type="hidden" name="add-to-cart" value="86">
-                                            <button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
-                                        </form>
-                                        <div class="product_meta">
-                                            <span class="sku_wrapper">SKU: <span class="sku" itemprop="sku">SP001</span>.</span>
-                                            <span class="posted_in">Categories: <a href="#" rel="tag">Accessories</a>, <a href="#" rel="tag">closes</a>, <a href="#" rel="tag">SHOES</a>.</span>
-                                        </div>
-                                    </div>
-                                    <!-- summary -->
-                                </div>
-                                <div class="woocommerce-tabs wc-tabs-wrapper">
-                                    <ul class="tabs wc-tabs">
-                                        <li class="description_tab">
-                                            <a href="#tab-description">Description</a>
-                                        </li>
-                                        <li class="reviews_tab active">
-                                            <a href="#tab-reviews">Reviews (3)</a>
-                                        </li>
-                                    </ul>
-                                    <div class="panel entry-content wc-tab" id="tab-description">
-                                        <h2>Product Description</h2>
-                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                    </div>
-                                    <div class="panel entry-content wc-tab active" id="tab-reviews">
-                                        <div id="reviews">
-                                            <div id="comments">
-                                                <h2>3 reviews for this product</h2>
-                                                <ol class="commentlist">
-                                                    <li itemprop="review" itemscope="" itemtype="http://schema.org/Review" class="comment">
-                                                        <div class="comment_container">
-                                                            <img alt="" src="images/p25/1.jpg" class="avatar">
-                                                            <div class="comment-text">
-                                                                <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" class="star-rating" title="">
-                                                                    <span><strong itemprop="ratingValue">4</strong> out of 5</span>
-                                                                </div>
-                                                                <p class="meta">
-                                                                    <strong itemprop="author">Deve</strong> – <time itemprop="datePublished" datetime="2016-06-07T11:57:59+00:00">June 7, 2016</time>:
-                                                                </p>
-                                                                <div itemprop="description" class="description">
-                                                                    <p>Another great quality product that anyone who see’s me wearing has asked where to purchase one of their own.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li itemprop="review" itemscope="" itemtype="http://schema.org/Review" class="comment">
-                                                        <div class="comment_container">
-                                                            <img alt="" src="images/p25/2.jpg" class="avatar">
-                                                            <div class="comment-text">
-                                                                <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" class="star-rating" title="">
-                                                                    <span><strong itemprop="ratingValue">4</strong> out of 5</span>
-                                                                </div>
-                                                                <p class="meta">
-                                                                    <strong itemprop="author">John Doe</strong> – <time itemprop="datePublished" datetime="2016-06-07T11:57:59+00:00">June 7, 2016</time>:
-                                                                </p>
-                                                                <div itemprop="description" class="description">
-                                                                    <p>Another great quality product that anyone who see’s me wearing has asked where to purchase one of their own.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <!-- #comment-## -->
-                                                    <li itemprop="review" itemscope="" itemtype="http://schema.org/Review" class="comment">
-                                                        <div class="comment_container">
-                                                            <img alt="" src="images/p25/3.jpg" class="avatar">
-                                                            <div class="comment-text">
-                                                                <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating" class="star-rating" title="">
-                                                                    <span><strong itemprop="ratingValue">4</strong> out of 5</span>
-                                                                </div>
-                                                                <p class="meta">
-                                                                    <strong itemprop="author">Stuart</strong> – <time itemprop="datePublished" datetime="2016-06-07T11:57:59+00:00">June 7, 2016</time>:
-                                                                </p>
-                                                                <div itemprop="description" class="description">
-                                                                    <p>Another great quality product that anyone who see’s me wearing has asked where to purchase one of their own.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <!-- #comment-## -->
-                                                </ol>
-                                            </div>
-                                            <div id="review_form_wrapper">
-                                                <div id="review_form">
-                                                    <div id="respond" class="comment-respond">
-                                                        <h3 class="comment-reply-title">Add a review
-                                                        </h3>
-                                                        <form action="#" method="post" class="comment-form" novalidate="">
-                                                            <p class="comment-form-comment">
-                                                                <label>Your Review</label>
-                                                                <textarea name="comment" cols="45" rows="4"></textarea>
-                                                            </p>
-                                                            <p class="form-submit">
-                                                                <input name="submit" type="submit" class="submit" value="Submit"> 
-                                                                <input type="hidden" name="rd1" value="40">
-                                                                <input type="hidden" name="rd2" value="0">
-                                                            </p>
-                                                            <input type="hidden" value="">
-                                                        </form>
-                                                    </div>
-                                                    <!-- #respond -->
-                                                </div>
-                                            </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                              <DescriptionReview />
+								
+
                                 <div class="related products">
                                     <h2>Related Products</h2>
                                     <ul class="products ul-mh">
-                                        <li class="col-md-3 col-sm-3 col-xs-3">
-                                            <article class="entry-item ct-item-4 style-01">
-                                                <div class="entry-thumb">
-                                                    <a href="#">
-                                                        <img src="images/p2/1.jpg" alt="">
-                                                    </a>
-                                                    <div class="entry-content">
-                                                        <header>
-                                                            <h4 class="entry-title"><a href="#">Put a Title Here</a></h4>
-                                                            <div class="kopa-rating">
-                                                                <ul>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li class="hactive"><span class="fa fa-star"></span></li>
-                                                                    <li class="inactive"><span class="fa fa-star"></span></li>
-                                                                </ul>
-                                                            </div>
-                                                        </header>
-                                                        <p>Suspendisse ac tellus congue and eleifend leo eu, elementum.</p>
-                                                        <p class="ct-space-1"></p>
-                                                        <div class="ct-icon-1">
-                                                            <p><span>$</span>20</p>
-                                                        </div>
-                                                        <footer>
-                                                            <div class="ft-wrap style-01">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-user"></i>
-                                                                            by John Doe
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-folder-o"></i>
-                                                                            magazine
-                                                                        </a>
-                                                                    </li>  
-                                                                </ul>
-                                                            </div>
-                                                            <div class="ft-wrap style-02">
-                                                                <ul>
-                                                                    <li>
-                                                                        <div class="add-to-wishlist">
-                                                                            <div>
-                                                                                <a href="#" class="add_to_wishlist">
-                                                                                    <i class="ti-heart"></i>   
-                                                                                    <span>Wishlist</span> 
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li> 
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="ti-shopping-cart"></i>
-                                                                            <span>Add to cart</span>
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#" target="blank">
-                                                                            <i class="ti-new-window"></i>
-                                                                            <span>Details</span>
-                                                                        </a>
-                                                                    </li>     
-                                                                </ul>
-                                                            </div>
-                                                        </footer>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <div class="badge-icon-1 style-01">
-                                                New
-                                                <span></span>
-                                            </div>
-                                        </li>
-                                        <!-- product-item -->
-
-                                        <li class="col-md-3 col-sm-3 col-xs-3">
-                                            <article class="entry-item ct-item-4 style-02">
-                                                <div class="entry-thumb">
-                                                    <a href="#">
-                                                        <img src="images/p2/2.jpg" alt="">
-                                                    </a>
-                                                    <div class="entry-content">
-                                                        <header>
-                                                            <h4 class="entry-title"><a href="#">Put a Title Here</a></h4>
-                                                            <div class="kopa-rating">
-                                                                <ul>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li class="hactive"><span class="fa fa-star"></span></li>
-                                                                    <li class="inactive"><span class="fa fa-star"></span></li>
-                                                                </ul>
-                                                            </div>
-                                                        </header>
-                                                        <p>Suspendisse ac tellus congue and eleifend leo eu, elementum.</p>
-                                                        <p class="ct-space-1"></p>
-                                                        <div class="ct-icon-1">
-                                                            <p><span>$</span>20</p>
-                                                        </div>
-                                                        
-                                                        <footer>
-                                                            <div class="ft-wrap style-01">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-user"></i>
-                                                                            by John Doe
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-folder-o"></i>
-                                                                            magazine
-                                                                        </a>
-                                                                    </li>  
-                                                                </ul>
-                                                            </div>
-                                                            <div class="ft-wrap style-02">
-                                                                <ul>
-                                                                    <li>
-                                                                        <div class="add-to-wishlist">
-                                                                            <div>
-                                                                                <a href="#" class="add_to_wishlist">
-                                                                                    <i class="ti-heart"></i>   
-                                                                                    <span>Wishlist</span> 
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li> 
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="ti-shopping-cart"></i>
-                                                                            <span>Add to cart</span>
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#" target="blank">
-                                                                            <i class="ti-new-window"></i>
-                                                                            <span>Details</span>
-                                                                        </a>
-                                                                    </li>     
-                                                                </ul>
-                                                            </div>
-                                                        </footer>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </li>
-                                        <!-- product-item -->
-
-                                        <li class="col-md-3 col-sm-3 col-xs-3">
-                                            <article class="entry-item ct-item-4 style-04">
-                                                <div class="entry-thumb">
-                                                    <a href="#">
-                                                        <img src="images/p2/3.jpg" alt="">
-                                                    </a>
-                                                    <div class="entry-content">
-                                                        <header>
-                                                            <h4 class="entry-title"><a href="#">Put a Title Here</a></h4>
-                                                            <div class="kopa-rating">
-                                                                <ul>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li class="hactive"><span class="fa fa-star"></span></li>
-                                                                    <li class="inactive"><span class="fa fa-star"></span></li>
-                                                                </ul>
-                                                            </div>
-                                                        </header>
-                                                        <p>Suspendisse ac tellus congue and eleifend leo eu, elementum.</p>
-                                                        <p class="ct-space-1"></p>
-                                                        <div class="ct-icon-1">
-                                                            <p><span>$</span>20</p>
-                                                        </div>
-                                                        
-                                                        <footer>
-                                                            <div class="ft-wrap style-01">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-user"></i>
-                                                                            by John Doe
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-folder-o"></i>
-                                                                            magazine
-                                                                        </a>
-                                                                    </li>  
-                                                                </ul>
-                                                            </div>
-                                                            <div class="ft-wrap style-02">
-                                                                <ul>
-                                                                    <li>
-                                                                        <div class="add-to-wishlist">
-                                                                            <div>
-                                                                                <a href="#" class="add_to_wishlist">
-                                                                                    <i class="ti-heart"></i>   
-                                                                                    <span>Wishlist</span> 
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li> 
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="ti-shopping-cart"></i>
-                                                                            <span>Add to cart</span>
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#" target="blank">
-                                                                            <i class="ti-new-window"></i>
-                                                                            <span>Details</span>
-                                                                        </a>
-                                                                    </li>     
-                                                                </ul>
-                                                            </div>
-                                                        </footer>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <div class="badge-icon-1 style-02">
-                                                hot
-                                                <span></span>
-                                            </div>
-                                        </li>
-                                        <!-- product-item -->
-
-                                        <li class="col-md-3 col-sm-3 col-xs-3">
-                                            <article class="entry-item ct-item-4 style-03">
-                                                <div class="entry-thumb">
-                                                    <a href="#">
-                                                        <img src="images/p2/4.jpg" alt="">
-                                                    </a>
-                                                    <div class="entry-content">
-                                                        <header>
-                                                            <h4 class="entry-title"><a href="#">Put a Title Here</a></h4>
-                                                            <div class="kopa-rating">
-                                                                <ul>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li><span class="fa fa-star"></span></li>
-                                                                    <li class="hactive"><span class="fa fa-star"></span></li>
-                                                                    <li class="inactive"><span class="fa fa-star"></span></li>
-                                                                </ul>
-                                                            </div>
-                                                        </header>
-                                                        <p>Suspendisse ac tellus congue and eleifend leo eu, elementum.</p>
-                                                        <p class="ct-space-1"></p>
-                                                        <div class="ct-icon-1">
-                                                            <p><span>$</span>20</p>
-                                                        </div>
-                                                        
-                                                        <footer>
-                                                            <div class="ft-wrap style-01">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-user"></i>
-                                                                            by John Doe
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="fa fa-folder-o"></i>
-                                                                            magazine
-                                                                        </a>
-                                                                    </li>  
-                                                                </ul>
-                                                            </div>
-                                                            <div class="ft-wrap style-02">
-                                                                <ul>
-                                                                    <li>
-                                                                        <div class="add-to-wishlist">
-                                                                            <div>
-                                                                                <a href="#" class="add_to_wishlist">
-                                                                                    <i class="ti-heart"></i>   
-                                                                                    <span>Wishlist</span> 
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li> 
-                                                                    <li>
-                                                                        <a href="#">
-                                                                            <i class="ti-shopping-cart"></i>
-                                                                            <span>Add to cart</span>
-                                                                        </a>
-                                                                    </li>   
-                                                                    <li>
-                                                                        <a href="#" target="blank">
-                                                                            <i class="ti-new-window"></i>
-                                                                            <span>Details</span>
-                                                                        </a>
-                                                                    </li>     
-                                                                </ul>
-                                                            </div>
-                                                        </footer>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </li>
-                                        <!-- product-item -->
+                      <ShopBook
+                        v-for="shopbook in shopbooks"
+                        :key="shopbook.id"
+                        :shopbook="shopbook"
+                      />
                                     </ul>
                                 </div>
                             </div>
@@ -547,7 +82,48 @@
 </div>
 </template>
 <script>
+import BearComponent from "./ShopComponent/BearComponent"
+import DescriptionReview from "./ShopComponent/DescriptionReview"
+import ShopBook from "./ShopComponent/ShopBook"
 export default {
-	name:"ShopSingleFullWidth"
+	name:"ShopSingleFullWidth",
+	components:{
+		BearComponent,
+		DescriptionReview,
+		ShopBook,
+	},
+	data() {
+    return {
+      shopbooks: [
+        {
+          id: 1,
+          name: "Put a Title Here",
+          image: "images/p2/1.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+		},
+		        {
+          id: 2,
+          name: "Put a Title Here",
+          image: "images/p2/2.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+		},
+		        {
+          id: 3,
+          name: "Put a Title Here",
+          image: "images/p2/3.jpg",
+          discunt: "20%",
+          rate: "3",
+          description:
+            " Suspendisse ac tellus congue and eleifend leo eu, elementum. "
+		},
+      ]
+    };
+  }
 }
 </script>

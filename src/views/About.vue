@@ -32,54 +32,10 @@
 
       <section class="kopa-area kopa-area-18">
         <div class="container">
-          <div class="widget reading-module-intro-5">
-            <header class="widget-header style-01">
-              <h3 class="widget-title style-02">
-                who
-                <span>we are</span>
-              </h3>
-              <p>
-                Suspendisse ac tellus congue, eleifend leo eu, elementum ligula. Suspendisse eget interdum
-                <br />est. Nam suscipit diam nulla, porttitor blandit risus viverra sed. In hac...
-              </p>
-            </header>
-            <div class="widget-content">
-              <div class="row ct-row-2">
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                  <div class="owl-carousel owl-carousel-4 owl-btn-03">
-                    <div class="item">
-                      <div class="entry-thumb">
-                        <img src="images/p16/1.jpg" alt />
-                      </div>
-                    </div>
-                    <!-- item -->
-                    <div class="item">
-                      <div class="entry-thumb">
-                        <img src="images/p16/1.jpg" alt />
-                      </div>
-                    </div>
-                    <!-- item -->
-                  </div>
-                  <!-- owl-carousel-4 -->
-                </div>
-                <!-- col-md-6 -->
 
-                <div class="col-md-6 col-sm-6 col-xs-6">
-                  <h3 class="ct-title-10">Our History</h3>
-                  <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
-                    <br />
-                    <br />Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
-                    <br />
-                    <br />Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
-                  </p>
-                </div>
-                <!-- col-md-6 -->
-              </div>
-              <!-- row -->
-            </div>
-          </div>
-          <!-- widget -->
+			<OurHistory />
+
+
         </div>
         <!-- container -->
       </section>
@@ -110,70 +66,9 @@
                 </header>
                 <div class="widget-content">
                   <ul class="row ul-mh">
-                    <li class="col-md-6 col-sm-6 col-xs-6">
-                      <article class="entry-item ct-item-3">
-                        <header class="clearfix">
-                          <div class="kopa-pull-left">
-                            <h3 class="ct-title-10">magazines</h3>
-                          </div>
-                          <div class="kopa-pull-right">
-                            <h4 class="ct-title-8">2901</h4>
-                          </div>
-                        </header>
-                        <div class="entry-content">
-                          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris.</p>
-                          <a class="kopa-btn-6" href="#">Browse All</a>
-                        </div>
-                      </article>
-                    </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6">
-                      <article class="entry-item ct-item-3 style-01">
-                        <header class="clearfix">
-                          <div class="kopa-pull-left">
-                            <h3 class="ct-title-10">comics</h3>
-                          </div>
-                          <div class="kopa-pull-right">
-                            <h4 class="ct-title-8">1010</h4>
-                          </div>
-                        </header>
-                        <div class="entry-content">
-                          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris.</p>
-                          <a class="kopa-btn-6" href="#">Browse All</a>
-                        </div>
-                      </article>
-                    </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6">
-                      <article class="entry-item ct-item-3 style-02">
-                        <header class="clearfix">
-                          <div class="kopa-pull-left">
-                            <h3 class="ct-title-10">books</h3>
-                          </div>
-                          <div class="kopa-pull-right">
-                            <h4 class="ct-title-8">1603</h4>
-                          </div>
-                        </header>
-                        <div class="entry-content">
-                          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris.</p>
-                          <a class="kopa-btn-6" href="#">Browse All</a>
-                        </div>
-                      </article>
-                    </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6">
-                      <article class="entry-item ct-item-3 style-03">
-                        <header class="clearfix">
-                          <div class="kopa-pull-left">
-                            <h3 class="ct-title-10">articles</h3>
-                          </div>
-                          <div class="kopa-pull-right">
-                            <h4 class="ct-title-8">2012</h4>
-                          </div>
-                        </header>
-                        <div class="entry-content">
-                          <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris.</p>
-                          <a class="kopa-btn-6" href="#">Browse All</a>
-                        </div>
-                      </article>
-                    </li>
+
+					  <store v-for="store in stores" :key="store.id" :store="store" />
+
                   </ul>
                 </div>
               </div>
@@ -249,104 +144,8 @@
       </section>
       <!-- kopa-area-3 -->
 
-      <section class="kopa-area kopa-area-4">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <div class="widget reading-module-intro-7">
-                <h3 class="widget-title style-08">Business Strategy</h3>
-                <div class="widget-content">
-                  <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
-                  <strong>Register with us for future convenience :</strong>
-                  <ul class="ct-list style-01">
-                    <li>
-                      <span class="fa fa-paper-plane"></span>This is Photoshop's version of Lorem Ipsum. Proin.
-                    </li>
-                    <li>
-                      <span class="fa fa-paper-plane"></span>Proin gravida nibh vel velit auctor aliquet.
-                    </li>
-                    <li>
-                      <span class="fa fa-paper-plane"></span>Nisi elit consequat ipsum, nec sagittis sem nibh
-                    </li>
-                    <li>
-                      <span class="fa fa-paper-plane"></span>Duis sed odio sit amet nibh vulputate cursus a sit.
-                    </li>
-                    <li>
-                      <span class="fa fa-paper-plane"></span>Sagittis sem nibh id elit. Duis sed odio sit amet nibh.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- widget -->
-            </div>
-            <!-- col-md-6 -->
+		<BusineStrategy />
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-              <div class="widget">
-                <div class="widget-content">
-                  <div class="kopa-accordion kopa-accordion-1">
-                    <div class="panel-group">
-                      <div class="panel panel-default">
-                        <div class="panel-heading active">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" href="#">
-                              <span class="btn-title"></span>
-                              <span class="tab-title">Free Shipping for any ware</span>
-                            </a>
-                          </h4>
-                        </div>
-                        <div class="panel-collapse collapse in">
-                          <div
-                            class="panel-body"
-                          >This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.duis sed odio.</div>
-                        </div>
-                      </div>
-                      <!--/panel panel-default-->
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" href="#">
-                              <span class="btn-title"></span>
-                              <span class="tab-title">Gift Vochers for Kids</span>
-                            </a>
-                          </h4>
-                        </div>
-                        <div class="panel-collapse collapse">
-                          <div
-                            class="panel-body"
-                          >This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.duis sed odio.</div>
-                        </div>
-                      </div>
-                      <!--/panel panel-default-->
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" href="#">
-                              <span class="btn-title"></span>
-                              <span class="tab-title">Looking to Buy</span>
-                            </a>
-                          </h4>
-                        </div>
-                        <div class="panel-collapse collapse">
-                          <div
-                            class="panel-body"
-                          >This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.duis sed odio.</div>
-                        </div>
-                      </div>
-                      <!--/panel panel-default-->
-                    </div>
-                  </div>
-                  <!-- kopa-accordion -->
-                </div>
-              </div>
-              <!-- widget -->
-            </div>
-            <!-- col-md-6 -->
-          </div>
-          <!-- row -->
-        </div>
-        <!-- container -->
-      </section>
       <!-- kopa-area-4 -->
 
       <section class="kopa-area kopa-area-5 kopa-area-parallax white-text-style">
@@ -462,141 +261,57 @@
       </section>
       <!-- kopa-area-6 -->
 
-      <section class="kopa-area kopa-area-17">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="widget reading-module-carousel-2">
-                <header class="widget-header">
-                  <h3 class="widget-title style-02">
-                    Read Us
-                    <span>Newspapers</span>
-                  </h3>
-                  <p>
-                    Suspendisse ac tellus congue, eleifend leo eu, elementum ligula. Suspendisse eget interdum
-                    <br />est. Nam suscipit diam nulla, porttitor blandit risus viverra sed. In hac...
-                  </p>
-                </header>
-                <div class="widget-content">
-                  <div class="row">
-                    <div class="owl-carousel owl-carousel-2">
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/1.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/2.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/3.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/4.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/5.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/1.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/2.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/3.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/4.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/5.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/1.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/2.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/3.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/4.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                      <div class="item">
-                        <a href="#">
-                          <img src="images/p12/5.png" alt />
-                        </a>
-                      </div>
-                      <!-- item -->
-                    </div>
-                    <!-- owl-carousel-1 -->
-                  </div>
-                  <!-- row -->
-                </div>
-              </div>
-              <!-- widget -->
-            </div>
-            <!-- col-md-12 -->
-          </div>
-          <!-- row -->
-        </div>
-        <!-- container -->
-      </section>
+			<LogoFooter />
+
       <!-- kopa-area-7 -->
     </div>
   </div>
 </template>
 <script>
 import Member from "../components/Team/Member";
+import OurHistory from "../components/ComponentAbout/OurHistory"
+import Store from "../components/ComponentAbout/Store"
+import Find from "../components/ComponentAbout/Find"
+import BusineStrategy from "../components/ComponentAbout/BusineStrategy"
+import LogoFooter from "../components/ComponentAbout/LogoFooter"
 export default {
   name: "About",
   components: {
-    Member
+	Member,
+	OurHistory,
+	Store,
+	Find,
+	BusineStrategy,
+	LogoFooter
   },
   data() {
     return {
+		stores:[
+			{
+				id:1,
+				name:"Magazines",
+				year:"2901",
+				discription:"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris."
+			},
+						{
+				id:2,
+				name:"Comics",
+				year:"1010",
+				discription:"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris."
+			},
+						{
+				id:3,
+				name:"Books",
+				year:"1603",
+				discription:"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris."
+			},
+						{
+				id:4,
+				name:"Articles",
+				year:"2012",
+				discription:"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet as vulputate cursus a sit amet mauris."
+			},
+		],
       members: [
         {
           id: 1,

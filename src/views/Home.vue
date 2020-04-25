@@ -71,7 +71,7 @@
                   </header>
 
                   <div class="masonry-container row">
-                    <Book v-for="book in books" :key="book.id" :book="book" />
+                    
                   </div>
                   <!-- masonry-container -->
 
